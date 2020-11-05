@@ -1,7 +1,7 @@
 # pcravatarguesskiller
 猜头像杀手（疯狂电脑）
 
-*用于一个群有两个机器人且另一个机器人开启了猜角色（描述）功能的情况。
+*用于一个群有两个机器人且另一个机器人开启了猜头像（图片）功能的情况。
 
 通过hoshino\modules\priconne\_pcr_data.py中的CHARA_NAME字典读取角色id列表，通过这个列表去角色头像文件夹中获取头像图片进行雪碧图拼接，然后利用OpenCV进行图像匹配。
 
