@@ -88,8 +88,8 @@ def search_image_in_another_one(template_image_name):
     del template_image
     result = cv2.matchTemplate(sprite_gray_image, template_gray_image, cv2.TM_CCOEFF_NORMED)
     del sprite_gray_image, template_gray_image
-    threshold = 0.85
-    # result >= 85%
+    threshold = 0.95
+    # result >= 95%
     loc = numpy.where(result >= threshold)
     # mark the RGB image by GRAY coordinate
     point = ()
