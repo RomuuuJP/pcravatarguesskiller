@@ -8,15 +8,20 @@
 指令：
   
   生成json
+  
     记录所有角色头像文件的arraylist并存到json文件中
     
   更新json
+  
     更新已经生成的json文件
   
   生成sprite图
+  
     拼接一张包含所有角色的一星三星六星头像的雪碧图
   
   更新sprite图
-    更新已经生成的雪碧图
   
-开启descguess_killer的机器人会参与猜角色的竞猜，难度为疯狂电脑，努力击败bot吧！
+    更新已经生成的雪碧图
+
+
+开启avatarguess_killer的机器人会参与猜头像的竞猜，难度为疯狂电脑，努力击败bot吧！
